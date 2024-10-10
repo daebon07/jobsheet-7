@@ -9,6 +9,7 @@ public class Siakadwhile20 {
         jml = sc.nextInt();
 
         while ( i < jml) {
+            
             System.out.print("masukan nilai mahasiswa ke " + (i+1) + " :");
             nilai = sc.nextInt();
             
@@ -17,8 +18,10 @@ public class Siakadwhile20 {
                 continue;
             }
             if (nilai > 80 && nilai <= 100){
-                System.out.println("nilai mahasiswa" + (i+1) + "adalah a");
-            }
+                System.out.println("nilai mahasiswa" + (i+1) + "adalah a ");
+                System.out.println("Bagus, pertahankan nilainya ");
+
+             }
             else if (nilai > 73 && nilai <= 80){
                 System.out.println("nilai mahasiswa" + (i+1) + "adalah b+");
             }
